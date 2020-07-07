@@ -1,0 +1,24 @@
+.promo { 
+    position: relative;
+    min-height: 614px;
+    background: url(../../img/main.jpg) center (center / cover) no-repeat;
+    margin-top: 40px;
+   
+    &_text { 
+        
+        display: block;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 249px;
+    }
+    h2 { 
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 28px;    
+    }
+    h1 { 
+        font-size: 42px;
+        font-weight: 500;
+        margin-top: 9px;
+    }
+}

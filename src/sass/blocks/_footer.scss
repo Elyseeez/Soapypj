@@ -1,0 +1,68 @@
+.footer { 
+        
+        min-height: 510px;
+        display: flex;
+        flex-direction: column;
+        
+        background: url(../../img/ffooter.jpg) center (center / cover) no-repeat;
+        
+        margin: 0 auto;
+    &_info { 
+        margin-top: 66px;
+    }
+    &_img { 
+        margin-left: 134px;
+    }
+        
+    &_title { 
+        font-weight: 500;
+        font-size: 26px;
+        margin-right: 13px;
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+    &_addr { 
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+      
+        text-align: center;
+
+        color: #FFFFFF;
+    
+    }
+    &_connect { 
+        margin-left: 46px;
+        a { 
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 26px;
+           text-align: center;
+    
+            color: #FFFFFF;
+        }
+        span { 
+           
+            color: #FFFFFF;
+        }
+    }
+    
+   
+    &_bottom { 
+        padding-top: 184px;
+        
+        &_text { 
+            font-weight: 300;
+            color: #BFC0C2;
+
+        }
+        
+
+
+        
+
+        
+    }
+  
+}

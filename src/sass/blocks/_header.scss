@@ -1,0 +1,38 @@
+header { 
+   max-height: 86px;
+  
+}
+
+.logo { 
+        display: flex;
+        justify-content: space-between;
+       
+   
+    &_icon {
+        max-width: 44px;
+        max-height: 70px;
+       padding-top: 13px;
+        
+    }
+    &_menu { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;  
+        margin-top: 37px;
+         
+    }
+    &_link { 
+        font-weight: 300;
+        font-size: 16px;
+        
+        margin-top: 300px;
+        margin-right: 48px;
+        color: #43484E;
+        &:hover {
+            text-decoration: none;
+            color: #52A186;
+        }
+    }
+}
+

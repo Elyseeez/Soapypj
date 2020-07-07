@@ -1,0 +1,23 @@
+.map { 
+    height: 550px;
+    background: url(../../img/map.jpg) center (center / cover) no-repeat;
+    &_marks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 71px;
+        max-height: 101px;
+    }
+    &_locbig { 
+        margin-top: 290px;
+       margin-left: 36px;
+    }
+    &_locmiddle { 
+        margin-top: 699px;
+        margin-left: 210px;
+    }
+    &_locsmall { 
+        margin-top: 498px;
+        margin-left: 667px;
+    }
+}
